@@ -17,7 +17,7 @@ rule_files:
 
 remote_write:
   - url: 'https://rcv.insightcat.com/insert/prometheus'
-    bearer_token: '<secret>'
+    bearer_token: 'PROMETHEUS_SECRET'
 
 # A scrape configuration containing exactly one endpoint to scrape:
 # Here it's Prometheus itself.
