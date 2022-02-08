@@ -30,4 +30,4 @@ scrape_configs:
     scrape_timeout: 10s
     metrics_path: '/actuator/prometheus'
     static_configs:
-      - targets: ['https://internbank-deployment.herokuapp.com']
+      - targets: ['internbank-deployment.herokuapp.com']
